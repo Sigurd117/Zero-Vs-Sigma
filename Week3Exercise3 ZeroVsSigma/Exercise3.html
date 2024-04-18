@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Content</title>
+    <style>
+        body {
+            font-family: Broadway, Ariel;
+            margin: 0;
+            padding: 50px;
+            background-color: darkred;
+        }
+
+        .embedded-content {
+            margin: 300px;
+            border-radius: 10px;
+            overflow: Auto;
+            box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+        }
+
+        .embedded-content {
+            max-width: 200%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .embedded-content {
+                height: 200px;
+            }
+        }
+    </style>
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Zero Vs Sigma</h1>
+
+<div class="embedded-content">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVXItKUVRHs?si=QObZx_cXpKzmK0Yi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h1>Sonic Adventure 2 Final Boss</h1>
+
+<div class="embedded-content">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nhkb85jeOMk?si=JU2JR-aJz311RESX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
